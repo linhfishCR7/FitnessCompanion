@@ -1,0 +1,35 @@
+{
+  "name": "fitnesscompanion",
+  "displayName": "Fitness Companion",
+  "version": "1.0.0",
+  "description": "Health and fitness tracking with workout plans, progress analytics, and goal setting",
+  "main": "index.js",
+  "scripts": {
+    "build": "cordova build",
+    "build:android": "cordova build android",
+    "build:android:release": "cordova build android --release",
+    "run:android": "cordova run android",
+    "clean": "cordova clean",
+    "prepare": "cordova prepare",
+    "serve": "cordova serve"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "mobile",
+    "app",
+    "health",
+    "fitnesscompanion"
+  ],
+  "author": "LinhFish Development Team <dev@linhfish.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova": "^14.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {}
+  }
+}
